@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Header</title>
+  <link rel="stylesheet" href="resturantnew.css">
+</head>
+<body>
+
+<header>
+  <div class="logo">
+    <img src="path_to_your_logo.png" alt="Logo">
+  </div>
+  <nav>
+    <ul class="nav-links">
+     
+      
+      <li><a href="Menu.html">Menu</a></li>
+   <li><a href="#">Contact</a></li>
+   <li><a href="#reviewss">Reviews</a></li>
+      <li><a href="#locationn">Location</a></li>
+      <li><a class="re" href="reservation.html">Reservation</a></li>
+    </ul>
+    <div class="hamburger">
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+    </div>
+  </nav>
+</header>
+
+<body>
+    <div class="container">
+    
+  <div class="text">Tast The Tradition</div>
+  <div class="buttons-container">
+    <a href="#" class="button">Book</a>
+    <a href="#" class="button">Call</a>
+  </div>
+</div>
+
+    <h1 class="start">Starter Menu</h1>
+
+<div class="menu">
+  <div class="menu-item">
+    <img src="img1.jpg" alt="Meal 1">
+    <div class="meal-info">
+      <h4>Zesty Avocado Spring Rolls</h4>
+      
+      
+    </div>
+    <div class="pri">
+     <p class="price" >$10.99</p>
+    </div>
+  </div>
+
+  
+
+  <div class="menu-item">
+    <img src="img2.jpg" alt="Meal 2">
+    <div class="meal-info">
+     <h4>Savory Shrimp Skewers</h4>
+        </div>
+    <div class="pri">
+     <p class="price" >$10.99</p>
+    </div>
+  </div>
+
+  
+  <div class="menu-item">
+    <img src="img3.jpg" alt="Meal 3">
+    <div class="meal-info">
+     <h4>Mouthwatering Caprese Salad</h4>
+     
+     
+    </div>
+    <div class="pri">
+     <p class="price" >$10.99</p>
+    </div>
+  </div>
+
+
+
+  <div class="menu-item">
+    <img src="img4.jpg" alt="Meal 4">
+    <div class="meal-info">
+     <h4>Crispy Calamari Delight</h4>
+       
+      
+    </div>
+    <div class="pri">
+     <p class="price" >$10.99</p>
+    </div>
+  </div>
+</div>
+
+<div class="allstarters">
+    <a href="starters2.html"><button class="asta" >All Starters</button></a>
+</div>
+
+<div class="product-container">
+    <div class="inner-box">
+      <div class="title"><h1 class="week">Meal Of The Week</h1></div>
+      <div class="meal">
+        <h2 class="mealname">Meal Name</h2>
+      
+      </div>
+       <div class="description">Product Description goes here.
+      
+      </div>
+      <div class="price">$19.99</div>
+    </div>
+  </div>
+
+  <section id="locationn">
+    <h1 class="lct">Location</h1>
+   
+    <iframe src="https://www.google.com/maps/d/embed?mid=1p1PviCUuJmN6qScoqhqu_SRvQg0&hl=en&ehbc=2E312F"
+width="90%"
+height="400"
+frameborder="0"
+style="border:0"
+allowfullscreen
+></iframe>
+    </section>
+<section id="reviewss">
+  <h2 class="revie" >Reviews</h2>
+  <div class="review-section">
+      <div class="review">
+        <div class="stars">
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+        </div>
+          <h3>Review 1</h3>
+          <h4 class="rev" >Freindly staff, cheap and easy to find!</h4>
+          
+      </div>
+      <div class="review">
+        <div class="stars">
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+        </div>
+          <h3>Review 2</h3>
+          <h4 class="rev" >Waited 30min for my haircut, but was worth the wait!.</h4>
+          
+      </div>
+
+      <div class="review">
+        <div class="stars">
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+        </div>
+          <h3>Review 3</h3>
+          <h4 class="rev" >Had an aazing experience there! Best Hair cuts.</h4>
+          
+      </div>
+  </div>
+</section>
+<script>
+    const hamburger = document.querySelector('.hamburger');
+const navLinks = document.querySelector('.nav-links');
+
+hamburger.addEventListener('click', () => {
+  navLinks.classList.toggle('show');
+});
+</script>
+</body>
+<footer>
+    <div class="quick-links">
+      <ul>
+          <li><a class="linkss" href="impressum1.html">Impressum</a></li>
+          <li><a class="linkss" href="#"> Datenschutzerklärung</a></li>
+  </div>
+      <p class="copy">&copy; 2023 Your Restaurant Name. All Rights Reserved.</p>
+    
+  </footer>
+</html>
+

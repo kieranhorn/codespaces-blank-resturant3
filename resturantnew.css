@@ -1,0 +1,682 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&family=Inter:wght@900&family=Italiana&family=Kanit&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+body, ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+ 
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    font-family: 'Italiana', sans-serif;
+  }
+  
+  .logo img {
+    width: 100px; 
+    height: auto;
+  }
+  
+  nav {
+    display: flex;
+    align-items: center;
+   
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin-right: 20px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .nav-links a:hover {
+    color: #ffd700; 
+  }
+  
+  .re{
+    background-color:orange;
+    padding:10px 30px;
+      border-radius:10px;
+  }
+  
+  .hamburger {
+    display: none; 
+    cursor: pointer;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 18px;
+  }
+  
+  .line {
+    width: 30px;
+    height: 3px;
+    background-color: white;
+    transition: all 0.3s ease;
+  }
+  
+  .container {
+    width: 100%;
+    height: 500px;
+    background-image: url('img6.jpg'); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    position: relative;
+   
+    padding-bottom: 10px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: -1;
+    
+  }
+
+  .text {
+    font-size: 54px;
+    margin-bottom: 20px;
+    width: 395px;
+    height: 125px;
+    text-align:left;
+    margin-left:2em;
+    letter-spacing: 10px;
+    font-family: 'Italiana', sans-serif;
+  }
+
+  .buttons-container {
+    display: flex;
+    margin-left:6.5em;
+    margin-top:2em;
+   
+  }
+
+  .button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    background-color: orange;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width:100px;
+    text-align:center;
+    font-family: 'Italiana', sans-serif;
+    
+  }
+
+
+
+  .menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-family: 'Italiana', sans-serif;
+    
+    width:100%;
+height:400px;
+padding-top:50px ;
+  }
+
+
+  
+
+  .menu-item img {
+    border-radius: 50%;
+    width: 170px;
+    height: 170px;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+
+  .meal-info {
+    font-size: 16px;
+   display:flex;
+ width:100%;
+    margin:auto;
+    margin-left:0;
+   
+    
+  }
+.menu-item {
+
+align-items:center;
+margin: 0px;
+height:150px;
+color: black;
+
+}
+
+
+
+.price{
+color:orange;
+text-align: center;
+
+
+
+}
+
+
+.pri{
+width:100%;
+}
+
+.start{
+text-align:center;
+font-family: 'Italiana', sans-serif;
+
+padding: 30px;
+margin: 0;
+color: black;
+}
+
+.asta{
+padding:10px 40px;
+margin: auto;
+border: none;
+background-color: orange;
+color:white;
+border-radius: 10px;
+
+}
+
+.allstarters{
+width: 140px;
+padding-bottom: 50px;
+margin: auto;
+
+}
+ 
+ 
+.product-container {
+    position: relative;
+    
+    background-image: url('img7.jpg');
+    background-size: cover;
+    border-radius: 10px;
+    overflow: hidden;
+    
+    background-color:grey;
+    width:100%;
+    height:600px;
+  }
+
+  .inner-box {
+    float:right;
+    top: 0;
+    right: 0;
+    width: 600px;
+    height: 400px;
+    background-color: rgba(255, 255, 255, 0.644);
+    box-sizing: border-box;
+    color: black;
+    text-align:center;
+ 
+   
+    margin-top:7em;
+    margin-right:2em;
+  }
+
+  .title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    width: 100%;
+    font-family: 'Italiana', sans-serif;
+    
+  }
+
+  .mealname{
+    margin-top: 4em;
+    font-family: 'Italiana', sans-serif;
+  }
+
+  .description {
+    font-size: 14px;
+    margin-top: 1em;
+    margin-bottom: 5px;
+    font-family: 'Italiana', sans-serif;
+  }
+
+  .price {
+    font-size: 16px;
+    font-weight: bold;
+
+  }
+  .lct{
+    text-align: center;
+    margin:3em;
+    font-family: 'Italiana', sans-serif;
+     font-size: 30px;
+
+    
+}
+
+  iframe{
+    margin:auto;
+    display:block;
+    border-radius: 10px;
+}
+
+
+  .review-section {
+    display: flex;
+    justify-content: space-around;
+    margin: 3em;
+    padding-top: 40px;
+    color: black;
+    font-family: 'Italiana', sans-serif;
+    font-weight: 100;
+}
+
+.review {
+    width: 30%;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: 100;
+}
+
+.rev{
+    font-weight: 100;
+
+}
+
+.revie{
+    text-align: center;
+    font-family: 'Italiana', sans-serif;
+    font-size: 30px;
+    padding-top: 150px;
+    color: black;
+
+}
+
+.stars {
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.star {
+    color: orange;
+}
+
+
+
+  footer{
+    text-align:center;
+  }
+  
+  .quick-links ul {
+    font-family: 'Italiana', sans-serif;
+      padding-top: 210px;
+     
+  }
+  
+  .quick-links li {
+    font-family: 'Italiana', sans-serif;
+      display: inline;
+      margin-right: 15px;
+      
+  }
+  
+  a{
+      color: black;
+      text-decoration: none;
+  }
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  @media screen and (max-width: 768px) {
+    .nav-links {
+      display: none;
+      flex-direction: row;
+      background-color: #333;
+      position: absolute;
+      top: 80px; 
+      left: 0;
+      width: 100%;
+      padding: 20px;
+      box-sizing: border-box;
+      font-size:12px;
+      margin-top: 1em;
+    }
+  
+    .nav-links li {
+      margin-bottom: 10px;
+    }
+  
+    .hamburger {
+      display: flex;
+    }
+  
+    .hamburger:hover .line {
+      background-color: #ffd700;
+      width: 7px; }
+      
+      .nav-links {
+      display: none;
+    }
+  
+   
+    .nav-links.show {
+      display:flex;
+      justify-content:center;
+      
+     
+    }
+    .re{
+    background-color:orange;
+    padding:5px 15px;
+      border-radius:10px;
+  }
+  .container {
+    width: 100%;
+    height: 300px;
+    background-image: url('img6.jpg'); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    position: relative;
+   
+    
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: -1;
+    
+  }
+
+  .text {
+    font-size: 40px;
+   
+  
+    width: 395px;
+    height: 90px;
+    text-align:left;
+    margin-left:1em;
+    letter-spacing: 10px;
+    font-family: 'Italiana', sans-serif;
+  }
+
+  .buttons-container {
+    display: flex;
+    margin-left:2em;
+   
+    
+   
+  }
+
+  .button {
+    margin: 0 10px;
+    padding: 5px 10px;
+    background-color:orange; 
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width:70px;
+    font-size: 15px;
+    text-align:center;
+    font-family: 'Italiana', sans-serif;
+    
+  }
+  .menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-family: 'Italiana', sans-serif;
+    
+    width:100%;
+height:400px;
+padding-top:50px ;
+  }
+
+
+  
+
+  .menu-item img {
+    border-radius: 50%;
+    
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-bottom: 10px;
+    margin-left: 3.3em;
+  }
+
+  .meal-info {
+    font-size: 10px;
+   display:flex;
+ width:100%;
+    margin:auto;
+    margin-left:0;
+   
+    
+  }
+.menu-item {
+
+align-items:center;
+margin-top:1em;
+width: 200px;
+height:200px;
+color: black;
+
+
+}
+
+
+
+.price{
+color:orange;
+text-align: center;
+
+
+
+}
+
+h4{
+    width: 100%;
+    text-align: center;
+}
+
+.pri{
+width:100%;
+}
+
+.start{
+text-align:center;
+font-family: 'Italiana', sans-serif;
+
+padding: 30px;
+margin: 0;
+color: black;
+}
+
+.asta{
+padding:10px 40px;
+margin: auto;
+border: none;
+background-color: orange;
+color:white;
+border-radius: 10px;
+margin-top: 6em;
+
+}
+
+.allstarters{
+width: 140px;
+padding-bottom: 50px;
+margin: auto;
+
+}
+
+.product-container {
+    position: relative;
+    
+    background-image: url('img7.jpg');
+    background-size: cover;
+   
+    overflow: hidden;
+    
+    background-color:grey;
+    width:100%;
+    height:300px;
+  }
+
+  .inner-box {
+    float:right;
+    top: 0;
+    right: 0;
+    width: 300px;
+    height: 200px;
+    background-color: rgba(255, 255, 255, 0.644);
+    box-sizing: border-box;
+    color: black;
+    text-align:center;
+ 
+   
+    margin-top:3.3em;
+    margin-right:2em;
+  }
+
+  .title {
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    width: 100%;
+    font-family: 'Italiana', sans-serif;
+    
+  }
+
+  .mealname{
+    margin-top: 2.5em;
+    font-family: 'Italiana', sans-serif;
+    font-size: 15px;
+  }
+
+  .description {
+    font-size: 14px;
+    margin-top: 1em;
+    margin-bottom: 5px;
+    font-family: 'Italiana', sans-serif;
+  }
+
+  .price {
+    font-size: 14px;
+    font-weight: bold;
+
+  }
+
+  .review-section {
+    display: flex;
+    justify-content: space-around;
+    margin: 3em;
+    padding-top: 20px;
+    color: black;
+    font-family: 'Italiana', sans-serif;
+    font-weight: 100;
+}
+
+.review {
+    width: 30%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: 100;
+    margin: 0.5em;
+}
+
+.rev{
+    font-weight: 100;
+
+}
+
+.revie{
+    text-align: center;
+    font-family: 'Italiana', sans-serif;
+    font-size: 30px;
+    padding-top: 70px;
+    color: black;
+    margin-left:0;
+
+}
+
+.stars {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.star {
+    color: orange;
+}
+
+
+
+  footer{
+    text-align:center;
+    font-size: 13px;
+  }
+  
+  .quick-links ul {
+    font-family: 'Italiana', sans-serif;
+      padding-top: 210px;
+     
+  }
+  
+  .quick-links li {
+    font-family: 'Italiana', sans-serif;
+      display: inline;
+      margin-right: 15px;
+      
+  }
+  
+  a{
+      color: black;
+      text-decoration: none;
+  }
+
+  .lct{
+    text-align: center;
+    font-size: 20px;
+}
+
+  iframe{
+    margin:auto;
+    display:block;
+    border-radius: 10px;
+    height: 200px;
+}
+
+
+  }
+  

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Header</title>
+  <link rel="stylesheet" href="reservation.css">
+</head>
+<body>
+
+<header>
+  <div class="logo">
+    <img src="path_to_your_logo.png" alt="Logo">
+  </div>
+  <nav>
+    <ul class="nav-links">
+     
+        <li><a href="resturantnew.html">Home</a></li>
+      <li><a href="Menu.html">Menu</a></li>
+   <li><a href="#">Contact</a></li>
+   <li><a href="#reviewss">Reviews</a></li>
+      <li><a href="#locationn">Location</a></li>
+      <li><a class="re" href="reservation.html">Reservation</a></li>
+    </ul>
+    <div class="hamburger">
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+    </div>
+  </nav>
+</header>
+<body>
+    <div id="cookie-banner" class="cookie-banner">
+        <p>This website uses cookies to ensure you get the best experience on our website.</p>
+        <button id="accept-cookie-btn" class="accept-cookie-btn">Accept</button>
+    </div>
+    <section id="reservation">
+        <h2>Make a Reservation</h2>
+        
+        <form action="mailto:hornkieran1@gmail.com" method="post" enctype="text/plain">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="date">Date:</label>
+                <input type="date" id="date" name="date" required>
+            </div>
+            <div class="form-group">
+                <label for="time">Time:</label>
+                <input type="time" id="time" name="time" required>
+            </div>
+            <div class="form-group">
+                <label for="guests">Number of Guests:</label>
+                <input type="number" id="guests" name="guests" required>
+            </div>
+            <button type="submit">Submit Reservation</button>
+        </form>
+    </section>
+
+    <script>
+        const hamburger = document.querySelector('.hamburger');
+    const navLinks = document.querySelector('.nav-links');
+    
+    hamburger.addEventListener('click', () => {
+     
+      navLinks.classList.toggle('show');
+    });
+
+    alert('Reservation submitted successfully!');
+        
+document.addEventListener("DOMContentLoaded", function () {
+    const cookieBanner = document.getElementById("cookie-banner");
+    const acceptCookieBtn = document.getElementById("accept-cookie-btn");
+  if (localStorage.getItem("cookiesAccepted")) {
+        cookieBanner.style.display = "none";
+    }
+
+    
+    acceptCookieBtn.addEventListener("click", function () {
+     localStorage.setItem("cookiesAccepted", "true");
+        cookieBanner.style.display = "none";
+    });
+});
+    </script>
+</body>
+<footer>
+    <div class="quick-links">
+      <ul>
+          <li><a class="linkss" href="impressum1.html">Impressum</a></li>
+          <li><a class="linkss" href="#"> Datenschutzerklärung</a></li>
+  </div>
+      <p class="copy">&copy; 2023 Your Restaurant Name. All Rights Reserved.</p>
+    
+  </footer>
+</html>

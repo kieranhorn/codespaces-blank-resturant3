@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="starters2.css">
+  <title>Transitional Navbar</title>
+  <script>
+    function toggleMenu() {
+      const navList = document.querySelector('nav ul');
+      navList.classList.toggle('active');
+    }
+  </script>
+</head>
+
+
+<header>
+  <div class="logo">
+    <img src="path_to_your_logo.png" alt="Logo">
+  </div>
+  <nav>
+    <ul class="nav-links">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="Menu.html">Menu</a></li>
+   <li><a href="#">Contact</a></li>
+      <li><a href="#">Location</a></li>
+      <li><a class="re" href="#">Reservation</a></li>
+    </ul>
+    <div class="hamburger">
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+    </div>
+  </nav>
+</header>
+  <body>
+
+    <h1>Desserts</h1>
+    <h4 class="per">every bite is a celebration of freshness and exquisite taste. Immerse yourself in the essence of Italian culinary perfection – this is not just a salad; it's an experience.</h4>
+
+    <div class="menu">
+     
+      <div class="menu-item">
+        <img src="starter1.jpg" alt="Starter 1">
+        <div class="menu-item-content">
+          <div class="title">Caprese Salad</div>
+          <div class="description">Fresh mozzarella, tomatoes, and basil drizzled with balsamic glaze.</div>
+          <div class="price">$8.99</div>
+        </div>
+      </div>
+    
+ 
+      <div class="menu-item">
+        <img src="starter2.jpg" alt="Starter 2">
+        <div class="menu-item-content">
+          <div class="title">Garlic Shrimp Skewers</div>
+          <div class="description">Grilled shrimp skewers with garlic and herbs.</div>
+          <div class="price">$10.99</div>
+        </div>
+      </div>
+    
+      
+      <div class="menu-item">
+        <img src="starter3.jpg" alt="Starter 3">
+        <div class="menu-item-content">
+          <div class="title">Spinach Artichoke Dip</div>
+          <div class="description">Creamy spinach and artichoke dip served with tortilla chips.</div>
+          <div class="price">$7.99</div>
+        </div>
+      </div>
+    
+      <div class="menu-item">
+        <img src="starter1.jpg" alt="Starter 1">
+        <div class="menu-item-content">
+          <div class="title">Caprese Salad</div>
+          <div class="description">Fresh mozzarella, tomatoes, and basil drizzled with balsamic glaze.</div>
+          <div class="price">$8.99</div>
+        </div>
+      </div>
+    
+      
+      <div class="menu-item">
+        <img src="starter2.jpg" alt="Starter 2">
+        <div class="menu-item-content">
+          <div class="title">Garlic Shrimp Skewers</div>
+          <div class="description">Grilled shrimp skewers with garlic and herbs.</div>
+          <div class="price">$10.99</div>
+        </div>
+      </div>
+    
+      
+      <div class="menu-item">
+        <img src="starter3.jpg" alt="Starter 3">
+        <div class="menu-item-content">
+          <div class="title">Spinach Artichoke Dip</div>
+          <div class="description">Creamy spinach and artichoke dip served with tortilla chips.</div>
+          <div class="price">$7.99</div>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="starter1.jpg" alt="Starter 1">
+        <div class="menu-item-content">
+          <div class="title">Caprese Salad</div>
+          <div class="description">Fresh mozzarella, tomatoes, and basil drizzled with balsamic glaze.</div>
+          <div class="price">$8.99</div>
+        </div>
+      </div>
+    
+  
+      <div class="menu-item">
+        <img src="starter2.jpg" alt="Starter 2">
+        <div class="menu-item-content">
+          <div class="title">Garlic Shrimp Skewers</div>
+          <div class="description">Grilled shrimp skewers with garlic and herbs.</div>
+          <div class="price">$10.99</div>
+        </div>
+      </div>
+    
+      
+      <div class="menu-item">
+        <img src="starter3.jpg" alt="Starter 3">
+        <div class="menu-item-content">
+          <div class="title">Spinach Artichoke Dip</div>
+          <div class="description">Creamy spinach and artichoke dip served with tortilla chips.</div>
+          <div class="price">$7.99</div>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="starter1.jpg" alt="Starter 1">
+        <div class="menu-item-content">
+          <div class="title">Caprese Salad</div>
+          <div class="description">Fresh mozzarella, tomatoes, and basil drizzled with balsamic glaze.</div>
+          <div class="price">$8.99</div>
+        </div>
+      </div>
+    
+      <div class="menu-item">
+        <img src="starter2.jpg" alt="Starter 2">
+        <div class="menu-item-content">
+          <div class="title">Garlic Shrimp Skewers</div>
+          <div class="description">Grilled shrimp skewers with garlic and herbs.</div>
+          <div class="price">$10.99</div>
+        </div>
+      </div>
+    
+      <div class="menu-item">
+        <img src="starter3.jpg" alt="Starter 3">
+        <div class="menu-item-content">
+          <div class="title">Spinach Artichoke Dip</div>
+          <div class="description">Creamy spinach and artichoke dip served with tortilla chips.</div>
+          <div class="price">$7.99</div>
+        </div>
+      </div>
+      
+    </div>
+    <script>
+      const hamburger = document.querySelector('.hamburger');
+  const navLinks = document.querySelector('.nav-links');
+  
+  hamburger.addEventListener('click', () => {
+    
+    navLinks.classList.toggle('show');
+  });
+  </script>
+    
+    
+    </body>
+    <footer>
+        <div class="quick-links">
+          <ul>
+              <li><a class="linkss" href="impressum1.html">Impressum</a></li>
+              <li><a class="linkss" href="#"> Datenschutzerklärung</a></li>
+      </div>
+          <p class="copy">&copy; 2023 Your Restaurant Name. All Rights Reserved.</p>
+        
+      </footer>
+  
+  </html>
+  
+    
+    

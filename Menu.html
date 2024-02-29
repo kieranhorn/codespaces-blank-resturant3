@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="menu.css">
+  <title>Transitional Navbar</title>
+  <script>
+    function toggleMenu() {
+      const navList = document.querySelector('nav ul');
+      navList.classList.toggle('active');
+    }
+  </script>
+</head>
+
+
+<header>
+  <div class="logo">
+    <img src="path_to_your_logo.png" alt="Logo">
+  </div>
+  <nav>
+    <ul class="nav-links">
+      <li><a href="resturantnew.html">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="Menu.html">Menu</a></li>
+   <li><a href="#">Contact</a></li>
+      <li><a href="#">Location</a></li>
+      <li><a class="re" href="#">Reservation</a></li>
+    </ul>
+    <div class="hamburger">
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+    </div>
+  </nav>
+</header>
+
+  <body>
+    <h1 class="typetitle">Unleash Your Tastebuds </h1>
+    <h4 class="mdes">Immerse yourself in a world where passion meets plate, where each dish is a masterpiece meticulously curated to elevate your dining experience. From the freshest ingredients to the finest culinary techniques, our chefs pour their heart and soul into every creation.</h4>
+    <div class="trainingimg">
+
+      
+    
+    <div class="tcontainer">
+        <a href="starters2.html"> <img class="slimimg3" src="img4.jpg" height="700px"></a>
+        <div class="centered-text1">
+          <h3 class="btmtext">STARTERS</h3>
+           
+        </div>
+    </div>
+    
+       <div class="tcontainer">
+        <a href="Mainmenu2.html"> <img class="slimimg1" src="img5.jpg" height="700px"></a>
+        <div class="centered-text1">
+           <h3 class="btmtext">MAIN MENU</h3>
+           
+        </div>
+    </div>
+    
+       <div class="tcontainer">
+        <a href="nonalcoholicdrinks2.html"> <img class="slimimg2" src="img12.jpg" height="700px"></a>
+        <div class="centered-text1">
+            <h3 class="btmtext">NON-ALCOHLIC BEVERAGES</h3>
+           
+        </div>
+    </div>
+
+    <div class="tcontainer">
+        <a href="alcoholicdrinks2.html"> <img class="slimimg4" src="img10.jpg" height="700px"></a>
+        <div class="centered-text1">
+            <h3 class="btmtext">ALCOHLIC BEVERAGES</h3>
+           
+        </div>
+    </div>
+
+
+        <div class="tcontainer">
+            <a href="Deserts2.html"><img class="slimimg5" src="img11.jpg" height="700px"></a>
+            <div class="centered-text1">
+                <h3 class="btmtext">COFFEE AND DESSERTS</h3>
+               
+            </div>
+        </div>
+
+      </div>
+      <script>
+        const hamburger = document.querySelector('.hamburger');
+    const navLinks = document.querySelector('.nav-links');
+    
+    hamburger.addEventListener('click', () => {
+      navLinks.classList.toggle('show');
+    });
+    </script>
+  </body>
+
+  <footer>
+    <div class="quick-links">
+      <ul>
+          <li><a class="linkss" href="impressum1.html">Impressum</a></li>
+          <li><a class="linkss" href="#"> Datenschutzerklärung</a></li>
+  </div>
+      <p class="copy">&copy; 2023 Your Restaurant Name. All Rights Reserved.</p>
+    
+  </footer>
+
+</html>
